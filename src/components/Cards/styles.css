@@ -1,0 +1,27 @@
+:root{
+    --color-primary-0: #080808;
+    --color-primary-1: #2846f1;
+    --color-primary-2: #f0dc27;
+    --color-primary-3: #21f804;
+    --color-primary-4: #fc0404 ;
+    --color-primary-5: #3d3737;
+
+    --color-secundary-0: #777474;
+    --color-secundary-1: #a1acec;
+    --color-secundary-2: #dbd6a8;
+    --color-secundary-3: #b6e6b0;
+    --color-secundary-4: #e7a8a8 ;
+    --color-secundary-5: #fff;
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.8rem;
+    margin-top: 2.4rem;
+    overflow: hidden;
+}
+
+.cardContainer header {
+    justify-content: center;
+}

@@ -1,0 +1,44 @@
+.homeContainer{
+ display:flex;
+ flex-direction: row;
+}
+
+.homeContainer SideBar{
+ max-width: 12rem; 
+}
+
+.homeContainerBasebox{
+ display: flex;
+ flex-direction:column;
+ justify-content: flex-start;
+}
+ 
+.BaseBox{
+ max-width: 900rem;
+ padding: 5rem;
+}
+
+.BaseBox ul{
+ list-style-type: none;
+}
+
+.BaseBox .cardBox{
+    background: var(--color-background-primary);
+    border-radius: 2rem;
+    border-style: solid 2px;
+    padding: 2rem;
+
+    margin-top: 2rem;
+}
+
+.BaseBox .cardBox p{
+    margin-top: 2rem;
+    font-size: 300;
+    color: var(--color-text-complement);
+}
+
+.BaseBox footer{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: flex-end;
+}

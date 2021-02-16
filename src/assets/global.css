@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;800&display=swap');
+
+:root{
+	font-size: 60%;
+	--color-primary: #3467eb;
+	--color-secondary: #2a2273;
+	--color-background-primary:#e5e4f5;
+	--color-background-secondary: #acabb8;
+	--color-title-in-primary: #FFFFFF;
+	--color-text-in-primary: #D4C2FF;
+	--color-text-title: #32264D;
+	--color-text-complement: #9C98A6;
+	--color-text-base: #080808;
+	--color-line-in-white: #E6E6F0;
+	--color-input-background: #F8F8FC;
+	--color-button-text: #FFFFFF;
+	--color-box-base: #FFFFFF;
+	--color-box-footer: #FAFAFC;
+	--color-button-delete:#eb0c0c;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+
+	-webkit-font-smoothing: antialiased;
+
+	text-rendering: optimizeLegibility;
+
+	-moz-osx-font-smoothing: grayscale;
+
+	font-feature-settings: 'liga';
+}
+
+button{
+	cursor: pointer;	
+}
+
+html, body, #root {
+	height: 100vh;
+}
+
+body{
+	 background:  var(--color-background-secondary);
+}
+
+
+body,
+input,
+button,
+textarea {
+	color: var(--color-text-base);
+	font: 500 1.6rem 'Kanit', sans-serif;
+}
+
+.container{
+	width: 100vw;
+	max-width:1500px;
+}
+
+@media(min-width: 700px){
+	:root{
+		font-size: 62.5%;
+	}
+}
